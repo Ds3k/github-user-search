@@ -1,0 +1,43 @@
+@import './config';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: $light-mode-background;
+    font-family: $font-stack;
+    font-size: 15px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 730px;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 573px) {
+    .container {
+        width: 573px;
+        margin: 0 30px;
+    }
+}
+
+@media screen and (max-width: 327px) {
+    .container {
+        width: 327px;
+        margin: 0 30px;
+    }
+}
+
+@import './header';
+
+@import './content';

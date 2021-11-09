@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+//Font stack
+$font-stack: 'Space Mono', monospace;
+
+// Light Mode Colors
+.theme-light {
+   --color-primary: #FEFEFE;
+   --color-secondary: #2B3442;
+   --color-background: #F6F8FF; 
+   --color-text: #4B6A9B;
+}
+
+.theme-dark {
+    --color-primary: #1E2A47;
+    --color-secondary: #FFFFFF;
+    --color-background: #141D2F;
+    --color-text: #FFFFFF;
+}
+$light-mode-primary: #FEFEFE;
+$light-mode-secondary: #2B3442;
+$light-mode-background: #F6F8FF;
+$light-mode-text: #4B6A9B;
+
+// Dark Mode Colors
+$dark-mode-primary: #1E2A47;
+$dark-mode-secondary: #FFFFFF;
+$dark-mode-background: #141D2F;
+
+//General Color
+$inactive-color: #697C9A;
+$button-color: #0079FF;
